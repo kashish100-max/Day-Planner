@@ -1,2 +1,2 @@
-# Day-Planner
-# Named as TIMELY
+# TIMELY
+A day planner 
