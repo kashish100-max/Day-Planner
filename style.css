@@ -60,7 +60,7 @@ p{
     width: 50%;
     height: 100vh;
     z-index:1;
-    background-color: pink;
+    background-color: blue;
     transition: 2s;
 }
 
@@ -82,7 +82,7 @@ p{
 }
 
 .main_side_signin{
-    background-color: yellow;
+    background-color: blue;
     width: 50%;
     height: 100vh;
     left: 0;
@@ -108,4 +108,8 @@ p{
 .move2{
     transform: translateX(-100%);
     z-index: -1;
+}
+
+.start{
+    display:none;
 }
