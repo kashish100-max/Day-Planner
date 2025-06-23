@@ -21,13 +21,13 @@ a{
 }
 
 .info_btn{
-    background-color: blue;
+    background: linear-gradient(135deg, #2F80ED, #56CCF2);
     color: white;
-    border: blue;
+    border: linear-gradient(135deg, #2F80ED, #56CCF2);
 }
 
 .move_btn{
-    background-color: blue;
+    background: linear-gradient(135deg, #2F80ED, #56CCF2);
     color: white;
     border-color: white;
 }
@@ -84,6 +84,7 @@ p{
     height: 40px;
     width: 140px;
     border: 2px solid;
+    font-weight: 00;
 }
 
 .display{
@@ -95,8 +96,10 @@ p{
     width: 50%;
     height: 100vh;
     z-index:1;
-    background-color: blue;
-    transition: transform 0.6s ease, opacity 0.2s ease;
+    /* background-image: url("https://media.istockphoto.com/id/178149253/photo/deep-space-background.jpg?s=612x612&w=0&k=20&c=w1hb2H1C-blV918LoG9mGB02nJY6cLJpR5Szfg7sLqE=");
+    background-size: cover; */
+    background: linear-gradient(135deg, #2F80ED, #56CCF2);
+    transition: transform 0.6s ease, opacity 0.3s ease;
 }
 
 .all-content{
@@ -105,9 +108,6 @@ p{
     justify-content: space-around;
 }
 
-.login, .signUp, .main_side_signup, .main_side_signin {
-  backface-visibility: hidden;
-}
 
 
 .signUp{
@@ -124,7 +124,7 @@ p{
 }
 
 .main_side_signin{
-    background-color: blue;
+    background: linear-gradient(135deg, #2F80ED, #56CCF2);
     width: 50%;
     height: 100vh;
     left: 0;
